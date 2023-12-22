@@ -1,5 +1,36 @@
-.App {
+.header {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+#title{
+  padding-top:30px ;
+  color:white;
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 100px;
+}
+.app{
+  text-align: center;
+  
+  background-image: url('https://wallpapers.com/images/hd/4k-gaming-background-bud9k5ffqi3r2ds9.jpg');
+  background-size:cover;
+  background-attachment:fixed ;
+}
+.card{
+  margin: 20px;
+  font-family: 'Audiowide', sans-serif;
+  padding: 3px;
+  
+}
+button{
+  color:white;
+  background-color: #673147 !important;
+  border-color:#673147 !important ;
+  font-family: 'Silkscreen', sans-serif !important;
 }
 
 .App-logo {
